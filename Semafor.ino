@@ -14,18 +14,18 @@ pinMode(btn, INPUT);
 
 void loop() {
 if(digitalRead(btn) == HIGH){
-digitalWrite(zelena, LOW);
-digitalWrite(zluta, LOW);
-digitalWrite(cervena, HIGH);
-delay(10000);
-digitalWrite(cervena, HIGH);
-digitalWrite(zluta, HIGH);
-digitalWrite(zelena, LOW);
-delay(1500);
-digitalWrite(zelena, HIGH);
-digitalWrite(cervena, LOW);
-digitalWrite(zluta, LOW);
-delay(5000);
+ digitalWrite(zelena, LOW);
+ digitalWrite(zluta, LOW);
+ digitalWrite(cervena, HIGH);
+ delay(10000);
+ digitalWrite(cervena, HIGH);
+ digitalWrite(zluta, HIGH);
+ digitalWrite(zelena, LOW);
+ delay(1500);
+ digitalWrite(zelena, HIGH);
+ digitalWrite(cervena, LOW);
+ digitalWrite(zluta, LOW);
+ delay(5000);
   }
    else{
     digitalWrite(cervena, LOW);
